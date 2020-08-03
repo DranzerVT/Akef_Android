@@ -11,5 +11,5 @@
         android:fitsSystemWindows="true"
         android:adjustViewBounds="true"
         android:layout_gravity="center"
-        android:src="@drawable/akef_logo" />
+        android:src="@drawable/ek_logo" />
 </FrameLayout>
