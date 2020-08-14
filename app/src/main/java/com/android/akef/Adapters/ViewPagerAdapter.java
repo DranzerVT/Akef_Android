@@ -13,7 +13,7 @@ import com.android.akef.UI.StreamFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
-    private static int NUM_ITEMS = 4;
+    private static int NUM_ITEMS = 3;
 
     public ViewPagerAdapter(@NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
@@ -27,9 +27,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
                 return MoreFragment.newInstance();
             case 1: // Fragment # 0 - This will show FirstFragment
                 return HomeFragment.newInstance();
-            case 2: // Fragment # 0 - This will show FirstFragment different title
-                return GamesFragment.newInstance();
-            case 3:
+            case 2:
                 return StreamFragment.newInstance();
             default:
                 return null;
@@ -53,9 +51,6 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
                 title = "Home";
                 break;
             case 2:
-                title = "Games";
-                break;
-            case 3:
                 title = "Streaming";
                 break;
 

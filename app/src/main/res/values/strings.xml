@@ -21,4 +21,12 @@
     <string name="your_phone_number_required">Your Phone Number (required)</string>
     <string name="subject_required">Subject (required)</string>
     <string name="your_message_required">Your Message (required)</string>
+    <string name="contact_desc">Feel free to reach out to us if you have some queries, we\'ll be happy to help.</string>
+    <string name="share_portfolio">For business purposes share your portfolio with <b>mail@akef.in</b> </string>
+    <string name="close" />
+    <string name="open" />
+    <string name="streaming">Streaming</string>
+    <string name="games">Games</string>
+    <string name="home">Home</string>
+    <string name="more">More</string>
 </resources>

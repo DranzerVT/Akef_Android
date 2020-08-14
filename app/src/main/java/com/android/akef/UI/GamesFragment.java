@@ -1,19 +1,20 @@
 package com.android.akef.UI;
 
+import androidx.core.widget.NestedScrollView;
+import androidx.lifecycle.ViewModelProviders;
+
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.core.widget.NestedScrollView;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProviders;
-
 import com.android.akef.R;
 import com.github.florent37.materialviewpager.MaterialViewPagerHelper;
-
 
 public class GamesFragment extends Fragment {
 

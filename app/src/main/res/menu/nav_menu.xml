@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/home"
+        android:visible="true" />
+    <item
+        android:id="@+id/games_menu"
+        android:title="@string/games" />
+    <item
+        android:id="@+id/stream_menu"
+        android:title="@string/streaming" />
+    <item
+        android:id="@+id/more_menu"
+        android:title="@string/more" />
+</menu>
